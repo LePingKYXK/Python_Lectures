@@ -20,6 +20,8 @@ A (very) Brief Introduction to Python3
 2. 安装 Anaconda3
 Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运行。一路点`Next`即可。
 
+【建议】可以不安装在 C 盘，建议安装在一个相对较大的磁盘分区里，比如 `D:\anaconda3`。
+
 ### 设置 Jupyter notebook 的默认打开位置
 1. Windows系统用户，请在 `https://github.com/LePingKYXK/Python_Lectures` 连接上点击`Clone or download`按钮，然后再点击`Download ZIP`，即可下载此教程的所有（压缩格式）文件。将其解压到一个文件夹里。
 
