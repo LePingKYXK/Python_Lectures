@@ -15,7 +15,7 @@ A (very) Brief Introduction to Python3
     - 清华大学镜像站：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
   打开连接之后，最后一项是对应的最新版本的`Anaconda3`，**请注意** 安装文件对应的系统（`Linux`，`Mac`, `Windows`）以及相应的`32位`还是`64位`版本。
-  
+
 
 2. 安装 Anaconda3
 Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运行。一路点`Next`即可。
@@ -28,15 +28,15 @@ Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运
 如果你用的是`中文版 Windows`系统，请点击 `C盘`-->`用户`-->`[你的名字]`-->`.jupyter`，找到 `jupyter_notebook_config.py` 文件。
 
 3. 用 `Notepad++` 打开此文件，搜索找到如下行：
-> \## The directory to use for notebooks and kernels.
->
-> \#c.NotebookApp.notebook_dir = ' '
-
+```python
+## The directory to use for notebooks and kernels.--
+#c.NotebookApp.notebook_dir = ' '
+```
 修改成：
-> \## The directory to use for notebooks and kernels.
->
-> c.NotebookApp.notebook_dir = '**你的硬盘目录**'
-
+```python
+## The directory to use for notebooks and kernels.
+c.NotebookApp.notebook_dir = '**你的硬盘目录**'
+```
 - **【注意】 请去掉 c.NotebookApp.notebook_dir 前面的 ``#` 号；**
 - **【注意】 这里“你的硬盘目录”可以是你存放文件的任何目录，只要你方便找到就好；**
 - **【注意】 c.NotebookApp.notebook_dir = '你的硬盘目录' 单引号不要删除。**
