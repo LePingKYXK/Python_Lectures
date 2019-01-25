@@ -9,10 +9,13 @@ A (very) Brief Introduction to Python3
 ### 安装 Anaconda3
 1. 下载 Anaconda3
     - 官方网站： https://www.anaconda.com/download/
+
     如果下载速率过于慢，请移步国内镜像地址下载：
     - 中国科学技术大学镜像站： https://mirrors.ustc.edu.cn/anaconda/archive/
     - 清华大学镜像站：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
-  打开连接之后，最后一项是对应的最新版本的`Anaconda3`，**请注意**安装文件对应的系统（`Linux`，`Mac`, `Windows`）以及相应的`32位`还是`64位`版本。
+
+  打开连接之后，最后一项是对应的最新版本的`Anaconda3`，**请注意** 安装文件对应的系统（`Linux`，`Mac`, `Windows`）以及相应的`32位`还是`64位`版本。
+  
 
 2. 安装 Anaconda3
 Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运行。一路点`Next`即可。
@@ -26,10 +29,12 @@ Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运
 
 3. 用 `Notepad++` 打开此文件，搜索找到如下行：
 > \## The directory to use for notebooks and kernels.
+>
 > \#c.NotebookApp.notebook_dir = ' '
 
 修改成：
 > \## The directory to use for notebooks and kernels.
+>
 > c.NotebookApp.notebook_dir = '**你的硬盘目录**'
 
 - **【注意】 请去掉 c.NotebookApp.notebook_dir 前面的 ``#` 号；**
