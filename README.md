@@ -37,9 +37,9 @@ Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运
 修改成：
 ```python
 ## The directory to use for notebooks and kernels.
-c.NotebookApp.notebook_dir = '**你的硬盘目录**'
+c.NotebookApp.notebook_dir = '你的硬盘目录'
 ```
-- **【注意】 请去掉 c.NotebookApp.notebook_dir 前面的 ``#` 号；**
+- **【注意】 请去掉 c.NotebookApp.notebook_dir 这一行前面的 # 号；**
 - **【注意】 这里“你的硬盘目录”可以是你存放文件的任何目录，只要你方便找到就好；**
 - **【注意】 c.NotebookApp.notebook_dir = '你的硬盘目录' 单引号不要删除。**
 
