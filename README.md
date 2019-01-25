@@ -29,7 +29,7 @@ Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运
 
 3. 用 `Notepad++` 打开此文件，搜索找到如下行：
 ```python
-## The directory to use for notebooks and kernels.--
+## The directory to use for notebooks and kernels.
 #c.NotebookApp.notebook_dir = ' '
 ```
 修改成：
