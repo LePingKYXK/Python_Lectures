@@ -23,13 +23,11 @@ Windows系统用户直接双击下载后的 `.exe`文件，用管理员身份运
 【建议】可以不安装在 C 盘，建议安装在一个相对较大的磁盘分区里，比如 `D:\anaconda3`。
 
 ### 设置 Jupyter notebook 的默认打开位置
-1. Windows系统用户，请在 `https://github.com/LePingKYXK/Python_Lectures` 连接上点击`Clone or download`按钮，然后再点击`Download ZIP`，即可下载此教程的所有（压缩格式）文件。将其解压到一个文件夹里。
-
-2. 鼠标双击 `Anaconda Prompt`，打开命令行，输入 `jupyter notebook --generate-config` 命令。
+1. 安装好`Anaconda3`之后，在`开始`菜单中找到`Anaconda3`文件夹，用鼠标点击 `Anaconda Prompt`，打开命令行，然后输入 `jupyter notebook --generate-config` 命令。
 这行命令会在 `C:\Users\[YOUR_NAME]\.jupyter`目录下，产生一个 `jupyter_notebook_config.py` 文件。
 如果你用的是`中文版 Windows`系统，请点击 `C盘`-->`用户`-->`[你的名字]`-->`.jupyter`，找到 `jupyter_notebook_config.py` 文件。
 
-3. 用 `Notepad++` 打开此文件，搜索找到如下行：
+2. 用 `Notepad++` 或者 `记事本` 打开上述文件，搜索找到如下行：
 ```python
 ## The directory to use for notebooks and kernels.
 #c.NotebookApp.notebook_dir = ' '
@@ -45,8 +43,10 @@ c.NotebookApp.notebook_dir = '你的硬盘目录'
 
 更多参数的设置请看官方连接： https://jupyter-notebook.readthedocs.io/en/stable/config.html
 
-4. 将第 1 步中解压的教程文件夹放在第 3 步 **你的硬盘目录** 下面
+3. Windows系统用户，请在 `https://github.com/LePingKYXK/Python_Lectures` 连接上点击`Clone or download`按钮，然后再点击`Download ZIP`，即可下载此教程的所有（压缩格式）文件。将其解压到一个文件夹里。
 
-5. 在 `Anaconda Prompt`命令行中输入`jupyter notebook`，即可运行 `Jupyter notebook`。它会在你的浏览器中打开。你可以看到打开的页面就是你刚刚在第 3 步设置的目录位置。
+4. 将第 3 步中解压的教程文件夹放在第 2 步 **你的硬盘目录** 下面
+
+5. 在 `Anaconda Prompt`命令行中输入`jupyter notebook`，即可运行 `Jupyter notebook`。它会在你的浏览器中打开。你可以看到打开的页面就是你刚刚在第 2 步设置的目录位置。
 
 6. 用鼠标双击此教程的 `Introduction_to_Python3.ipynb` 文件，即可在浏览器中打开并运行。
