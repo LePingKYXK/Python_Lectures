@@ -14,7 +14,7 @@ A (very) Brief Introduction to Python3
     - 中国科学技术大学镜像站： https://mirrors.ustc.edu.cn/anaconda/archive/
     - 清华大学镜像站：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
-  打开连接之后，最后一项是对应的最新版本的`Anaconda3`，**请注意** 安装文件对应的系统（`Linux`，`Mac`, `Windows`）以及相应的`32位`还是`64位`版本。
+  打开连接之后，可以找到各个版本的 Anaconda，请查看更新时间，下载新版本的`Anaconda3`，**请注意** 安装文件对应的系统（`Linux`，`Mac`, `Windows`）以及相应的`32位`还是`64位`版本。
 
 
 2. 安装 Anaconda3
